@@ -10,8 +10,13 @@
     width: 200px;
     height: 200px;
     color: white;
+    font-size: 50px;
+}
+
+.child:nth-child(1) {
+    order: 2;
 }
 
 .child:nth-child(2) {
-    align-self: center;
+    order: 3;
 }
